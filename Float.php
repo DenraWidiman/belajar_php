@@ -7,19 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="identity">
-        <img src="potrait.png" alt="Denra Widiman">
-        <h1>Denra Widiman</h1>
-        <p>Software Engineer</p>
-    </div>
     <div class="container">
         <h1>Belajar Tipe Data</h1>
         <h2>Float</h2>
-        <hr>
-        <?php
-            $nilaiMatematika = 9.8;
-            $nilaiIPA = 8.9;
-            $nilaiBahasaIndonesia = 9.3;
+        <?php,  
+
+            $nilaiMatematika = 7.5;
+            $nilaiIPA = 7.6;
+            $nilaiBahasaIndonesia = 8.3;
 
             # hitung nilai rata-rata
             $rataRata = ($nilaiMatematika + $nilaiIPA + $nilaiBahasaIndonesia) / 3;

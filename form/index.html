@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir PHP Kompleks</title>
+    <style>
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Formulir PHP Kompleks</h2>
+    <form action="index.php" method="post">
+      <label for="nama">Nama:</label>
+      <input
+        type="text"
+        name="nama"
+        required
+        pattern="[a-zA-Z\s]+"
+        title="Hanya huruf dan spasi yang diperbolehkan"
+      /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" required /><br />
+
+      <label for="umur">Umur:</label>
+      <input type="number" name="umur" required min="1" /><br />
+
+      <label for="jenis_kelamin">Jenis Kelamin:</label>
+      <select name="jenis_kelamin" required>
+        <option value="pria">Pria</option>
+        <option value="wanita">Wanita</option></select
+      ><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

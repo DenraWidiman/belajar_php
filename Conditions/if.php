@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="identity">
-        <img src="../type data/potrait.png" alt="Revan Permana">
-        <h1>Revan Permana</h1>
+        <img src="../type data/potrait.png" alt="Denra Widiman">
+        <h1>Denra Widiman</h1>
         <p>Software Engineer</p>
     </div>
     <div class="container">

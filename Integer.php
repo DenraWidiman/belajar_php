@@ -7,15 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="identity">
-        <img src="potrait.png" alt="Denra Widiman">
-        <h1>Denra Widiman</h1>
-        <p>Software Engineer</p>
-    </div>
     <div class="container">
         <h1>Belajar Tipe Data</h1>
-        <h2>Integer</h2>
-        <hr>
+        <h2>Integer</h2>    
         <?php
             # inisiasi dan inisialisasi variabel
             $a = 10;
@@ -23,17 +17,17 @@
             $c = $a + 5;
             $d = $b + (10 * 5);
             $e = $d - $c;
-            
+
             # Tampilkan data dengan perintah echo
             echo "Variabel a: {$a} <br>";
             echo "Variabel b: {$b} <br>";
             echo "Variabel c: {$c} <br>";
             echo "Variabel d: {$d} <br>";
             echo "Variabel e: {$e} <br>";
-            
+
             # mengetahui tipe data dari variabel
             var_dump($e);
-            ?>
+        ?>
     </div>
 </body>
 </html>

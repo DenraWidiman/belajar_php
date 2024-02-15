@@ -9,7 +9,7 @@
 <body>
     <div class="identity">
         <img src="../type data/potrait.png" alt="Revan Permana">
-        <h1>Revan Permana</h1>
+        <h1>Denra Widiman</h1>
         <p>Software Engineer</p>
     </div>
     <div class="container">

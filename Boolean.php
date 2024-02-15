@@ -7,23 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="identity">
-        <img src="potrait.png" alt="Denra Widiman">
-        <h1>Denra Widiman</h1>
-        <p>Software Engineer</p>
-    </div>
     <div class="container">
         <h1>Belajar Tipe Data</h1>
         <h2>Boolean</h2>
-        <hr>
         <?php
 
-        $apakahSiswaLulus = true;
-        $apakahSiswaSudahUjian = false;
+            $apakahSiswaLulus = true;
+            $apakahSiswaSudahUjian = false;
 
-        var_dump($apakahSiswaLulus);
-        echo "<br>";
-        var_dump($apakahSiswaSudahUjian);
+            var_dump($apakahSiswaLulus);
+            echo "<br>";
+            var_dump($apakahSiswaSudahUjian);
         ?>
     </div>
 </body>
